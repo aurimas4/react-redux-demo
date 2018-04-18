@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Counter from './Counter';
+import CounterReducer from './CounterReducer';
 
 export default class App extends Component {
     render() {
@@ -12,6 +13,14 @@ export default class App extends Component {
                 <div>
                     <h2>Counter (2)</h2>
                     <Counter/>
+                </div>
+                <div>
+                    <h2>CounterReducer (1)</h2>
+                    <CounterReducer/>
+                </div>
+                <div>
+                    <h2>CounterReducer (2)</h2>
+                    <CounterReducer/>
                 </div>
             </div>
         );
