@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Counter from './Counter';
 import CounterReusable from './CounterReusable';
+import CounterReusableArray from './CounterReusableArray';
 
 export default class App extends Component {
     render() {
@@ -21,6 +22,18 @@ export default class App extends Component {
                 <div>
                     <h2>CounterReusable (2)</h2>
                     <CounterReusable identifier={'B'}/>
+                </div>
+                <div>
+                    <h2>CounterReusableArray (1)</h2>
+                    <CounterReusableArray identifier={'1'}/>
+                </div>
+                <div>
+                    <h2>CounterReusableArray (2)</h2>
+                    <CounterReusableArray identifier={'2'}/>
+                </div>
+                <div>
+                    <h2>CounterReusableArray (3)</h2>
+                    <CounterReusableArray identifier={'3'}/>
                 </div>
             </div>
         );
