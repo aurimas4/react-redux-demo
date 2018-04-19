@@ -8,31 +8,38 @@ export default class App extends Component {
     render() {
         return (
             <div>
-                <div>
-                    <h1>LibA (1)</h1>
-                    <LibA/>
-                </div>
-                <div>
-                    <h1>LibA (2)</h1>
-                    <LibA/>
-                </div>
-                <div>
-                    <h1>LibB (1)</h1>
-                    <LibB/>
-                </div>
-                <h1>--REUSABLE-----------------------------------</h1>
-                <div>
-                    <h1>LibAReusable (1)</h1>
-                    <LibA/>
-                </div>
-                <div>
-                    <h1>LibAReusable (2)</h1>
-                    <LibA/>
-                </div>
-                <div>
-                    <h1>LibBReusable (1)</h1>
-                    <LibB/>
-                </div>
+                <table>
+                    <tr>
+                        <td>
+                            <div>
+                                <h1>LibA (1)</h1>
+                                <LibA/>
+                            </div>
+                            <div>
+                                <h1>LibA (2)</h1>
+                                <LibA/>
+                            </div>
+                            <div>
+                                <h1>LibB (1)</h1>
+                                <LibB/>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <h1>LibAReusable (1)</h1>
+                                <LibAReusable/>
+                            </div>
+                            <div>
+                                <h1>LibAReusable (2)</h1>
+                                <LibAReusable/>
+                            </div>
+                            <div>
+                                <h1>LibBReusable (1)</h1>
+                                <LibBReusable/>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
             </div>
         );
     }
