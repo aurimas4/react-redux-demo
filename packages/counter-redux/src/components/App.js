@@ -15,6 +15,7 @@ export default class App extends Component {
                     <h2>Counter (2)</h2>
                     <Counter/>
                 </div>
+                <hr/>
                 <div>
                     <h2>CounterReusable (1)</h2>
                     <CounterReusable identifier={'A'}/>
@@ -23,6 +24,7 @@ export default class App extends Component {
                     <h2>CounterReusable (2)</h2>
                     <CounterReusable identifier={'B'}/>
                 </div>
+                <hr/>
                 <div>
                     <h2>CounterReusableArray (1)</h2>
                     <CounterReusableArray identifier={'1'}/>
