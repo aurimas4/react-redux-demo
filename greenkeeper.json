@@ -1,0 +1,13 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "packages/context-api/package.json",
+        "packages/counter-redux/package.json",
+        "packages/counter/package.json",
+        "packages/data-table/package.json",
+        "packages/multiple-stores/package.json"
+      ]
+    }
+  }
+}
